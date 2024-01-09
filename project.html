@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Project - Angel</title>
+    <!-- LInk to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body style="background-color: #F5F5DC;">
+    <!--Header-->
+    <header>
+        <a href="#" class="logo">Angel</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="web.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="index.html" class="btn">Sign in</a>
+    </header>
+    <!--Project-->
+    <section class="project" id="project">
+        <div class="heading1">
+            <h2>Project</h2>
+        </div>
+    <!--Project Container-->
+        <div class="container-a">
+            <form class="filter">
+                <div class="item">
+                    <label>Category</label>
+                    <select name="category">
+                        <option value="">All</option>
+                        <option value="Picture Book">Picture Book</option>
+                        <option value="Music Video">Music Video</option>
+                        <option value="Comic">Comic</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>Name</label>
+                    <input name="name" type="text">
+                </div>
+                <div class="item submit">
+                    <button>Search</button>
+                </div>
+            </form>
+            <div class="countResults">
+                Found <b id="count">5</b> results
+            </div>
+            <div id="list">
+                
+            </div>
+        </div>
+        <div class="container-pagination">
+            <button class="button" id="startBtn" disabled>
+                <i class="fa-solid fa-angles-left"></i>
+            </button>
+            <button class="button prevNext" id="prev" disabled>
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <div class="links">
+                <a href="#" class="link active">1</a>
+                <a href="p2.html" class="link">2</a>
+                <a href="#" class="link">3</a>
+                <a href="#" class="link">4</a>
+                <a href="#" class="link">5</a>
+            </div>
+            <button class="button prevNext" id="next">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+            <button class="button" id="endBtn">
+                <i class="fa-solid fa-angles-right"></i>
+            </button>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer-box">
+            <!--Logo-->
+            <a href="#" class="logo1">Angel</a>
+            <p> Crowdfunding website</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Our Blogs</a></li>
+            <li><a href="#">Our Partners</a></li>
+        </div>
+        <div class="footer-box contact">
+            <h3>Contact</h3>
+            <span><i class='bx bxs-map'></i>36 Vo Van Tan, Ho Chi Minh City, Viet Nam<span>
+            <span><i class='bx bxs-phone'></i>0123456789<span>
+            <span><i class='bx bxs-envelope'></i>AngelCompany@gmail.com<span>
+        </div>
+    </section>
+    <!--copyright-->
+    <div class="copyright">
+        <p>&#169; Angel All Right Reserved</p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
